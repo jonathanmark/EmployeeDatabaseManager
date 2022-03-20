@@ -1,6 +1,6 @@
 from datetime import datetime
 
-name = input('Hello dear employee. What is your name?: ')
+name = input('Hello. What is your name?: ')
 timeToday = datetime.today().isoformat()
 
 with open('user_database.txt', mode='r+') as database:
